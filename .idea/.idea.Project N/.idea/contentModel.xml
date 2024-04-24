@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Project N.-633498833.00" t="ExcludeRecursive" />
+    <e p="Z:\Рабочий стол\_Projects\Unity\Project N" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_OldProject" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AddButtonCallback.cs" t="Include" />
+            <e p="AttackTarget.cs" t="Include" />
+            <e p="ChangeScene.cs" t="Include" />
+            <e p="CollectReward.cs" t="Include" />
+            <e p="CreateEnemyMenuItems.cs" t="Include" />
+            <e p="EnemyUnitAction.cs" t="Include" />
+            <e p="KillDamageText.cs" t="Include" />
+            <e p="KillEnemy.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+            <e p="PlayerUnitAction.cs" t="Include" />
+            <e p="RunFromBattle.cs" t="Include" />
+            <e p="SelectUnit.cs" t="Include" />
+            <e p="ShowUnitHealth.cs" t="Include" />
+            <e p="ShowUnitMana.cs" t="Include" />
+            <e p="ShowUnitStat.cs" t="Include" />
+            <e p="SpawnEnemy.cs" t="Include" />
+            <e p="StartBattle.cs" t="Include" />
+            <e p="TurnSystem.cs" t="Include" />
+            <e p="UnitStats.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Project_N" t="Include">
+          <e p="Skripts" t="Include">
+            <e p="CameraRotateAround.cs" t="Include" />
+            <e p="Character1Controller.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Project N.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
