@@ -27,10 +27,14 @@ public class CameraRotateAround : MonoBehaviour {
 		else if(Input.GetAxis("Mouse ScrollWheel") < 0) offset.z -= zoom;
 		offset.z = Mathf.Clamp(offset.z, -Mathf.Abs(zoomMax), -Mathf.Abs(zoomMin));
 
-		X = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivity;
-		Y += Input.GetAxis("Mouse Y") * sensitivity;
-		Y = Mathf.Clamp (Y, -limit, limit);
-		transform.localEulerAngles = new Vector3(-Y, X, 0);
-		transform.position = transform.localRotation * offset + target.position;
+		if (Input.GetKey(KeyCode.Mouse0))
+		{
+			X = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * sensitivity;
+            		Y += Input.GetAxis("Mouse Y") * sensitivity;
+            		Y = Mathf.Clamp (Y, -limit, limit);
+            		transform.localEulerAngles = new Vector3(-Y, X, 0);
+            		transform.position = transform.localRotation * offset + target.position;
+		}
+		
 	}
 }

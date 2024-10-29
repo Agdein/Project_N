@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Project_N.385131359.00" t="ExcludeRecursive" />
+    <e p="Z:\Рабочий стол\_Projects\_GameDev\Unity\Project_N" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_OldProject" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AddButtonCallback.cs" t="Include" />
+            <e p="AttackTarget.cs" t="Include" />
+            <e p="ChangeScene.cs" t="Include" />
+            <e p="CollectReward.cs" t="Include" />
+            <e p="CreateEnemyMenuItems.cs" t="Include" />
+            <e p="EnemyUnitAction.cs" t="Include" />
+            <e p="KillDamageText.cs" t="Include" />
+            <e p="KillEnemy.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+            <e p="PlayerUnitAction.cs" t="Include" />
+            <e p="RunFromBattle.cs" t="Include" />
+            <e p="SelectUnit.cs" t="Include" />
+            <e p="ShowUnitHealth.cs" t="Include" />
+            <e p="ShowUnitMana.cs" t="Include" />
+            <e p="ShowUnitStat.cs" t="Include" />
+            <e p="SpawnEnemy.cs" t="Include" />
+            <e p="StartBattle.cs" t="Include" />
+            <e p="TurnSystem.cs" t="Include" />
+            <e p="UnitStats.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Project_N" t="Include">
+          <e p="Skripts" t="Include">
+            <e p="CameraRotateAround.cs" t="Include" />
+            <e p="CameraZoom.cs" t="Include" />
+            <e p="Old_Character1Controller.cs" t="Include" />
+          </e>
+          <e p="Skripts1" t="Include">
+            <e p="1CharacterAnimations.cs" t="Include" />
+            <e p="Base" t="Include">
+              <e p="BasePosition.cs" t="Include" />
+            </e>
+            <e p="CameraOrbit.cs" t="Include" />
+            <e p="CharacterAnimation.cs" t="Include" />
+            <e p="PlayerMovement1.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive">
+        <e p="com.singularitygroup.hotreload" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Attribution" t="Include">
+              <e p="Attribution.cs" t="Include" />
+              <e p="VSAttribution.cs" t="Include" />
+            </e>
+            <e p="CLI" t="Include">
+              <e p="CliUtils.cs" t="Include" />
+              <e p="FallbackCliController.cs" t="Include" />
+              <e p="HotReloadCli.cs" t="Include" />
+              <e p="ICliController.cs" t="Include" />
+              <e p="LinuxCliController.cs" t="Include" />
+              <e p="OsxCliController.cs" t="Include" />
+              <e p="StartArgs.cs" t="Include" />
+              <e p="WindowsCliController.cs" t="Include" />
+            </e>
+            <e p="CompileChecker" t="Include">
+              <e p="DefaultCompileChecker.cs" t="Include" />
+              <e p="ICompileChecker.cs" t="Include" />
+              <e p="LegacyCompileChecker.cs" t="Include" />
+            </e>
+            <e p="Constants.cs" t="Include" />
+            <e p="Demo" t="Include">
+              <e p="EditorDemo.cs" t="Include" />
+            </e>
+            <e p="EditorCodePatcher.cs" t="Include" />
+            <e p="EditorIndicationState.cs" t="Include" />
+            <e p="GitUtil.cs" t="Include" />
+            <e p="Helpers" t="Include">
+              <e p="AssemblyOmission.cs" t="Include" />
+              <e p="BuildInfoHelper.cs" t="Include" />
+              <e p="EditorWindowHelper.cs" t="Include" />
+              <e p="GUIHelper.cs" t="Include" />
+              <e p="HotReloadSuggestionsHelper.cs" t="Include" />
+              <e p="HotReloadTimelineHelper.cs" t="Include" />
+              <e p="Spinner.cs" t="Include" />
+              <e p="UnitySettingsHelper.cs" t="Include" />
+            </e>
+            <e p="HotReloadEventPopup.cs" t="Include" />
+            <e p="HotReloadOverlay.cs" t="Include" />
+            <e p="HotReloadPrefs.cs" t="Include" />
+            <e p="HotReloadSettingsEditor.cs" t="Include" />
+            <e p="HotReloadState.cs" t="Include" />
+            <e p="Installation" t="Include">
+              <e p="DownloadUtility.cs" t="Include" />
+              <e p="ExponentialBackoff.cs" t="Include" />
+              <e p="InstallUtility.cs" t="Include" />
+              <e p="ServerDownloader.cs" t="Include" />
+              <e p="UpdateUtility.cs" t="Include" />
+            </e>
+            <e p="PlayerBuild" t="Include">
+              <e p="BuildGenerateBuildInfo.cs" t="Include" />
+              <e p="HotReloadBuildHelper.cs" t="Include" />
+              <e p="PostbuildModifyAndroidManifest.cs" t="Include" />
+              <e p="PostbuildSendProjectState.cs" t="Include" />
+              <e p="PrebuildIncludeResources.cs" t="Include" />
+            </e>
+            <e p="ProjectGeneration" t="Include">
+              <e p="FileIOProvider.cs" t="Include" />
+              <e p="GUIDProvider.cs" t="Include" />
+              <e p="IFileIO.cs" t="Include" />
+              <e p="IGUIDGenerator.cs" t="Include" />
+              <e p="IHotReloadProjectGenerationPostProcessor.cs" t="Include" />
+              <e p="ProjectGenenerationPostProcessor.cs" t="Include" />
+              <e p="ProjectGeneration.cs" t="Include" />
+              <e p="ProjectGenerationFlag.cs" t="Include" />
+              <e p="ProjectPart.cs" t="Include" />
+              <e p="SolutionGuidGenerator.cs" t="Include" />
+              <e p="Util" t="Include">
+                <e p="FileSystemUtil.cs" t="Include" />
+                <e p="StringUtils.cs" t="Include" />
+              </e>
+            </e>
+            <e p="RequiredSettings" t="Include">
+              <e p="RequiredSettingChecker.cs" t="Include" />
+            </e>
+            <e p="ServerHealthCheck.cs" t="Include" />
+            <e p="SingularityGroup.HotReload.Editor.asmdef" t="Include" />
+            <e p="Versioning" t="Include">
+              <e p="PackageUpdateChecker.cs" t="Include" />
+              <e p="SemVer.cs" t="Include" />
+            </e>
+            <e p="Window" t="Include">
+              <e p="GUI" t="Include">
+                <e p="Buttons" t="Include">
+                  <e p="OpenDialogueButton.cs" t="Include" />
+                  <e p="OpenURLButton.cs" t="Include" />
+                </e>
+                <e p="EditorTextures.cs" t="Include" />
+                <e p="IGUIComponent.cs" t="Include" />
+                <e p="Options" t="Include">
+                  <e p="AllowAndroidAppToMakeHttpRequestsOption.cs" t="Include" />
+                  <e p="Base" t="Include">
+                    <e p="HotReloadOptionBase.cs" t="Include" />
+                    <e p="OptionInterfaces.cs" t="Include" />
+                  </e>
+                  <e p="ExposeServerOption.cs" t="Include" />
+                  <e p="IncludeInBuildOption.cs" t="Include" />
+                </e>
+                <e p="Tabs" t="Include">
+                  <e p="Base" t="Include">
+                    <e p="HotReloadTabBase.cs" t="Include" />
+                  </e>
+                  <e p="Helpers" t="Include">
+                    <e p="RedeemLicenseHelper.cs" t="Include" />
+                  </e>
+                  <e p="HotReloadAboutTab.cs" t="Include" />
+                  <e p="HotReloadOptionsSection.cs" t="Include" />
+                  <e p="HotReloadRunTab.cs" t="Include" />
+                  <e p="HotReloadSettingsTab.cs" t="Include" />
+                </e>
+              </e>
+              <e p="HotReloadWindow.cs" t="Include" />
+              <e p="ShowOnStartupEnum.cs" t="Include" />
+              <e p="Styles" t="Include">
+                <e p="HotReloadWindowStyles.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="package.json" t="Include" />
+          <e p="Runtime" t="Include">
+            <e p="AppCallbackListener.cs" t="Include" />
+            <e p="BuildInfo.cs" t="Include" />
+            <e p="Burst" t="Include">
+              <e p="JobHotReloadUtility.cs" t="Include" />
+            </e>
+            <e p="BurstChecker.cs" t="Include" />
+            <e p="CodePatcher.cs" t="Include" />
+            <e p="Demo" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="HotReloadBasicDemo.cs" t="Include" />
+                <e p="HotReloadBurstJobsDemo.cs" t="Include" />
+                <e p="IDemo.cs" t="Include" />
+              </e>
+            </e>
+            <e p="HotReloadSettingsObject.cs" t="Include" />
+            <e p="InstallQRDialog.cs" t="Include" />
+            <e p="IpHelper.cs" t="Include" />
+            <e p="IServerHealthCheck.cs" t="Include" />
+            <e p="MethodCompatiblity.cs" t="Include" />
+            <e p="MethodPatchResponsesConverter.cs" t="Include" />
+            <e p="MethodUtils.cs" t="Include" />
+            <e p="MonoBehaviours" t="Include">
+              <e p="ConnectionDialog.cs" t="Include" />
+              <e p="Prompts.cs" t="Include" />
+              <e p="QuestionDialog.cs" t="Include" />
+              <e p="RetryDialog.cs" t="Include" />
+            </e>
+            <e p="MonoMethod.cs" t="Include" />
+            <e p="OnHotReloadDispatch.cs" t="Include" />
+            <e p="PackageConst.cs" t="Include" />
+            <e p="PatchServerInfo.cs" t="Include" />
+            <e p="PersistencePaths.cs" t="Include" />
+            <e p="PlayerCodePatcher.cs" t="Include" />
+            <e p="PlayerEntrypoint.cs" t="Include" />
+            <e p="Public" t="Include">
+              <e p="HotReloadLogging.cs" t="Include" />
+              <e p="InvokeOnHotReload.cs" t="Include" />
+              <e p="InvokeOnHotReloadLocal.cs" t="Include" />
+              <e p="Log.cs" t="Include" />
+              <e p="LogLevel.cs" t="Include" />
+              <e p="SingularityGroup.HotReload.Runtime.Public.asmdef" t="Include" />
+            </e>
+            <e p="RequestHelper.cs" t="Include" />
+            <e p="ServerHandshake.cs" t="Include" />
+            <e p="ServerHealthCheck.cs" t="Include" />
+            <e p="SingularityGroup.HotReload.Runtime.asmdef" t="Include" />
+            <e p="SymbolResolver.cs" t="Include" />
+            <e p="SymbolResolvingFailedException.cs" t="Include" />
+            <e p="TaskExtensions.cs" t="Include" />
+            <e p="ThreadUtility.cs" t="Include" />
+            <e p="UnityHelper.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Project_N.sln" t="IncludeFlat" />
+      <e p="SingularityGroup.HotReload.Editor.csproj" t="IncludeRecursive" />
+      <e p="SingularityGroup.HotReload.Runtime.csproj" t="IncludeRecursive" />
+      <e p="SingularityGroup.HotReload.Runtime.Public.csproj" t="IncludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
