@@ -574,6 +574,7 @@ GameObject:
   - component: {fileID: 1297373828}
   - component: {fileID: 1297373827}
   - component: {fileID: 1297373826}
+  - component: {fileID: 1297373829}
   m_Layer: 0
   m_Name: Castle
   m_TagString: Untagged
@@ -588,7 +589,7 @@ LookAtConstraint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297373825}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Weight: 1
   m_RotationAtRest: {x: 0, y: 0, z: 0}
@@ -664,10 +665,26 @@ Transform:
   m_LocalRotation: {x: -0.00008287541, y: -0.9973321, z: -0.07298951, w: 0.0011298754}
   m_LocalPosition: {x: 0.08742237, y: -4.3, z: 26.4}
   m_LocalScale: {x: 2, y: 2, z: 2}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1297373829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297373825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4760a0bdd7a31f04a971da216237149b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 114492656}
+  originalSprite: {fileID: -451050123, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+  alternateSprite: {fileID: 21300000, guid: b8b25a57faa84b0418c33de4bb164374, type: 3}
+  compressionFactor: 0.5
 --- !u!1 &1395448516
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character1Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/1CharacterAnimations.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/PlayerMovement1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/GPT/SpriteController.cs" />
       </list>
     </option>
   </component>
@@ -82,6 +83,9 @@
       <workItem from="1722083976544" duration="5310000" />
       <workItem from="1722665709342" duration="6226000" />
       <workItem from="1723945324564" duration="3092000" />
+      <workItem from="1732590149220" duration="1813000" />
+      <workItem from="1732592016750" duration="599000" />
+      <workItem from="1734309197088" duration="873000" />
     </task>
     <servers />
   </component>
