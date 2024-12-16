@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class SpriteController : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private Vector3 originalScale;
+    private Action<object> _log;
 
     void Start()
     {
@@ -30,21 +32,40 @@ public class SpriteController : MonoBehaviour
         Vector3 directionToCamera = camera.transform.position - transform.position;
         float angle = Vector3.Angle(Vector3.forward, directionToCamera);
 
+        _log = Debug.Log;
         if (angle >= 0 && angle < 40)
         {
             // Поворачиваем спрайт к камере
             RotateTowardsCamera();
             ResetSprite();
+            _log(angle);
         }
         else if (angle >= 40 && angle < 70)
         {
             // Сжимаем спрайт по оси Y и поворачиваем его к камере
+            ResetSprite();
             CompressAndRotateTowardsCamera();
+            _log(angle);
         }
         else if (angle >= 70 && angle <= 90)
         {
             // Заменяем спрайт на другой и поворачиваем к камере
             ReplaceSpriteAndRotateTowardsCamera();
+            _log(angle);
+        }
+        else if (angle >= 90 && angle < 130)
+        {
+            // Сжимаем спрайт по оси Y и поворачиваем его к камере
+            ResetSprite();
+            CompressAndRotateTowardsCamera();
+            _log(angle);
+        }
+        else if (angle >= 130 && angle < 180)
+        {
+            // Сжимаем спрайт по оси Y и поворачиваем его к камере
+            ResetSprite();
+            RotateTowardsCamera();
+            _log(angle);
         }
     }
 
