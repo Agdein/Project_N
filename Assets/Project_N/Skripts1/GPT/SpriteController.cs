@@ -1,18 +1,22 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
      [SerializeField] private Camera camera; // Ссылка на камеру, назначается в инспекторе
     [SerializeField] private Sprite originalSprite; // Оригинальный спрайт
+    [SerializeField] private Sprite originalSpriteReverce;
     [SerializeField] private Sprite alternateSprite; // Альтернативный спрайт
+    [SerializeField] private Sprite alternateSpriteReverce;
     [SerializeField] float compressionFactor = 0.5f;
 
     private SpriteRenderer spriteRenderer;
     private Vector3 originalScale;
     private Action<object> _log;
+    private bool ReverceSprite;
 
     void Start()
     {
@@ -31,8 +35,17 @@ public class SpriteController : MonoBehaviour
 
         Vector3 directionToCamera = camera.transform.position - transform.position;
         float angle = Vector3.Angle(Vector3.forward, directionToCamera);
-
         _log = Debug.Log;
+
+        if (transform.rotation.y < 0)
+        {
+            ReverceSprite = true;
+        }
+        else
+        {
+            ReverceSprite = false;
+        }
+        
         if (angle >= 0 && angle < 40)
         {
             // Поворачиваем спрайт к камере
@@ -42,22 +55,25 @@ public class SpriteController : MonoBehaviour
         }
         else if (angle >= 40 && angle < 70)
         {
-            // Сжимаем спрайт по оси Y и поворачиваем его к камере
+            
             ResetSprite();
-            CompressAndRotateTowardsCamera();
+            CompressSprite();
+            RotateTowardsCamera();
             _log(angle);
         }
         else if (angle >= 70 && angle <= 90)
         {
-            // Заменяем спрайт на другой и поворачиваем к камере
-            ReplaceSpriteAndRotateTowardsCamera();
+            
+            ReplaceSprite();
+            RotateTowardsCamera();
             _log(angle);
         }
         else if (angle >= 90 && angle < 130)
         {
             // Сжимаем спрайт по оси Y и поворачиваем его к камере
             ResetSprite();
-            CompressAndRotateTowardsCamera();
+            CompressSprite();
+            RotateTowardsCamera();
             _log(angle);
         }
         else if (angle >= 130 && angle < 180)
@@ -67,6 +83,7 @@ public class SpriteController : MonoBehaviour
             RotateTowardsCamera();
             _log(angle);
         }
+        
     }
 
     void RotateTowardsCamera()
@@ -74,27 +91,45 @@ public class SpriteController : MonoBehaviour
         transform.LookAt(camera.transform.position);
     }
 
-    void CompressAndRotateTowardsCamera()
+    void CompressSprite()// Сжимаем спрайт по оси Y и поворачиваем его к камере
     {
-        transform.LookAt(camera.transform.position);
         transform.localScale = new Vector3(originalScale.x * compressionFactor, originalScale.y, originalScale.z);
     }
 
-    void ReplaceSpriteAndRotateTowardsCamera()
+    void ReplaceSprite()// Заменяем спрайт на другой и поворачиваем к камере
     {
-        transform.LookAt(camera.transform.position);
-        if (spriteRenderer.sprite != alternateSprite)
-        {
-            spriteRenderer.sprite = alternateSprite;
+        if(ReverceSprite!)
+        { if (spriteRenderer.sprite != alternateSprite)
+            {
+                spriteRenderer.sprite = alternateSprite;
+            }
+           
+        }
+        else
+        {if (spriteRenderer.sprite != alternateSpriteReverce)
+            {
+                spriteRenderer.sprite = alternateSpriteReverce;
+            }
+           
         }
     }
 
     void ResetSprite()
     {
-        if (spriteRenderer.sprite != originalSprite)
+       if(ReverceSprite!)
+       { if (spriteRenderer.sprite != originalSprite)
         {
             spriteRenderer.sprite = originalSprite;
         }
+           
+       }
+       else
+       {if (spriteRenderer.sprite != originalSpriteReverce)
+           {
+               spriteRenderer.sprite = originalSpriteReverce;
+           }
+           
+       }
         transform.localScale = originalScale;
     }
 }
