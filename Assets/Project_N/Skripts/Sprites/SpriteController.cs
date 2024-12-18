@@ -31,13 +31,13 @@ public class SpriteController : MonoBehaviour
 
     void Update()
     {
+        Vector3 directionToCamera = camera.transform.position - transform.position;
+                float angle = Vector3.Angle(Vector3.forward, directionToCamera);
+                _log = Debug.Log;
+
         
 
-        Vector3 directionToCamera = camera.transform.position - transform.position;
-        float angle = Vector3.Angle(Vector3.forward, directionToCamera);
-        _log = Debug.Log;
-
-        if (transform.rotation.y < 0)
+        if (transform.rotation.y < 0 && transform.rotation.y > -180)
         {
             ReverceSprite = true;
         }
@@ -51,7 +51,7 @@ public class SpriteController : MonoBehaviour
             // Поворачиваем спрайт к камере
             RotateTowardsCamera();
             ResetSprite();
-            _log(angle);
+            //_log(angle);
         }
         else if (angle >= 40 && angle < 70)
         {
@@ -59,14 +59,14 @@ public class SpriteController : MonoBehaviour
             ResetSprite();
             CompressSprite();
             RotateTowardsCamera();
-            _log(angle);
+            
         }
         else if (angle >= 70 && angle <= 90)
         {
             
             ReplaceSprite();
             RotateTowardsCamera();
-            _log(angle);
+           
         }
         else if (angle >= 90 && angle < 130)
         {
@@ -74,21 +74,24 @@ public class SpriteController : MonoBehaviour
             ResetSprite();
             CompressSprite();
             RotateTowardsCamera();
-            _log(angle);
+         
         }
         else if (angle >= 130 && angle < 180)
         {
             // Сжимаем спрайт по оси Y и поворачиваем его к камере
             ResetSprite();
             RotateTowardsCamera();
-            _log(angle);
+         
         }
+        
+        
         
     }
 
     void RotateTowardsCamera()
     {
         transform.LookAt(camera.transform.position);
+        _log(ReverceSprite);
     }
 
     void CompressSprite()// Сжимаем спрайт по оси Y и поворачиваем его к камере

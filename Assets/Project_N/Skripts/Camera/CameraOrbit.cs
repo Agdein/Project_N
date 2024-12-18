@@ -7,7 +7,6 @@ public class CameraOrbit : MonoBehaviour
     [SerializeField] private Transform _player;
     [SerializeField] private float _mousSpeed = 3;
     [SerializeField] private float _orbitDamping = 10;
- 
     private Vector3 localRotarion;
 
     void Update()
@@ -24,6 +23,6 @@ public class CameraOrbit : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, QT, Time.deltaTime * _orbitDamping);
         
         //transform.rotation = QT;
-       
+
     }
 }

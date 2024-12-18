@@ -11,10 +11,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts1/CameraOrbit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_OldProject/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts1/CharacterAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts1/PlayerMovement1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/62FFEEB7-EC02-4BEA-B61E-5FBF8D44AC5B/8a/4ab74e33/Single.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -26,12 +24,12 @@
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/CharacterAnimations.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/CharacterAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Base/BasePosition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/CameraOrbit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/CameraZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character1Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/1CharacterAnimations.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/PlayerMovement1.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/GPT/SpriteController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/CameraOrbit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/CameraZoom.cs" />
       </list>
     </option>
   </component>
@@ -45,6 +43,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -85,7 +84,8 @@
       <workItem from="1723945324564" duration="3092000" />
       <workItem from="1732590149220" duration="1813000" />
       <workItem from="1732592016750" duration="599000" />
-      <workItem from="1734309197088" duration="8801000" />
+      <workItem from="1734309197088" duration="13711000" />
+      <workItem from="1734491120227" duration="5298000" />
     </task>
     <servers />
   </component>
@@ -98,6 +98,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1734494882278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1734494882278" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1734344651076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

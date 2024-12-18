@@ -31,21 +31,25 @@
         </e>
         <e p="Project_N" t="Include">
           <e p="Skripts" t="Include">
-            <e p="CameraRotateAround.cs" t="Include" />
-            <e p="CameraZoom.cs" t="Include" />
-            <e p="Old_Character1Controller.cs" t="Include" />
-          </e>
-          <e p="Skripts1" t="Include">
-            <e p="1CharacterAnimations.cs" t="Include" />
-            <e p="Base" t="Include">
-              <e p="BasePosition.cs" t="Include" />
+            <e p="_Old" t="Include">
+              <e p="1CharacterAnimations.cs" t="Include" />
+              <e p="CameraRotateAround.cs" t="Include" />
+              <e p="Old_Character1Controller.cs" t="Include" />
             </e>
-            <e p="CameraOrbit.cs" t="Include" />
-            <e p="CharacterAnimation.cs" t="Include" />
-            <e p="GPT" t="Include">
+            <e p="Camera" t="Include">
+              <e p="CameraOrbit.cs" t="Include" />
+              <e p="CameraZoom.cs" t="Include" />
+            </e>
+            <e p="Character" t="Include">
+              <e p="Base" t="Include">
+                <e p="BasePosition.cs" t="Include" />
+              </e>
+              <e p="CharacterAnimation.cs" t="Include" />
+              <e p="PlayerMovement1.cs" t="Include" />
+            </e>
+            <e p="Sprites" t="Include">
               <e p="SpriteController.cs" t="Include" />
             </e>
-            <e p="PlayerMovement1.cs" t="Include" />
           </e>
         </e>
       </e>
