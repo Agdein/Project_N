@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
-     [SerializeField] private Camera camera; // Ссылка на камеру, назначается в инспекторе
+     [SerializeField] private Camera _camera; // Ссылка на камеру, назначается в инспекторе
     [SerializeField] private Sprite originalSprite; // Оригинальный спрайт
     [SerializeField] private Sprite originalSpriteReverce;
     [SerializeField] private Sprite alternateSprite; // Альтернативный спрайт
@@ -15,11 +15,12 @@ public class SpriteController : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private Vector3 originalScale;
-    private Action<object> _log;
     private bool ReverceSprite;
+    private bool ReverceAlterSprite;
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        
         originalScale = transform.localScale;
 
         if (originalSprite != null)
@@ -30,71 +31,32 @@ public class SpriteController : MonoBehaviour
 
     void Update()
     {
-        Vector3 directionToCamera = camera.transform.position - transform.position;
-        float angle = Vector3.Angle(Vector3.forward, directionToCamera);
-        _log = Debug.Log;
-        
 
-        if (transform.localRotation.y < 0 && transform.localRotation.y > -180)
-        {
-            ReverceSprite = true;
-        }
-        else
-        {
-            ReverceSprite = false;
-        }
+        float yRotation = transform.rotation.eulerAngles.y;
         
-        if (angle >= 0 && angle < 40)
-        {
-            // Поворачиваем спрайт к камере
             RotateTowardsCamera();
-            ResetSprite();
-            //_log(angle);
-        }
-        else if (angle >= 40 && angle < 70)
-        {
-            
-            ResetSprite();
-            CompressSprite();
-            RotateTowardsCamera();
-            
-        }
-        else if (angle >= 70 && angle <= 90)
-        {
-            
-            ReplaceSprite();
-            RotateTowardsCamera();
-           
-        }
-        else if (angle >= 90 && angle < 130)
-        {
-            // Сжимаем спрайт по оси Y и поворачиваем его к камере
-            ResetSprite();
-            CompressSprite();
-            RotateTowardsCamera();
-         
-        }
-        else if (angle >= 130 && angle < 180)
-        {
-            // Сжимаем спрайт по оси Y и поворачиваем его к камере
-            ResetSprite();
-            RotateTowardsCamera();
-         
-        }
-
-      
-        
-        
+    
+            if ((yRotation >= 0 && yRotation <= 10) || (yRotation >= 70 && yRotation <= 90)|| (yRotation >= 170 && yRotation <= 190) || (yRotation >= 260 && yRotation <= 280) || (yRotation >= 350 && yRotation <= 360))
+            {
+                ReplaceSprite();
+            }
+            else if ((yRotation >= 45 && yRotation <= 90) || (yRotation >= 135 && yRotation <= 180) || (yRotation >= 225 && yRotation <= 270) || (yRotation >= 315 && yRotation <= 360))
+            {
+                ReverceSprite = true;
+                ResetSprite();
+            }
+            else
+            {
+                ReverceSprite = false;
+                ResetSprite();
+            }
     }
 
-    private void RotateTowardsCamera()
+    private void RotateTowardsCamera() //Поворот спрайта к камере
     {
-        var camPosition = camera.transform.position;
+        var camPosition = _camera.transform.position;
         camPosition.y = transform.position.y;
         transform.LookAt(camPosition);
-        //_log(ReverceSprite);
-        //_log(transform.localRotation.eulerAngles.y);
-        
     }
 
     private void CompressSprite()// Сжимаем спрайт по оси Y и поворачиваем его к камере
