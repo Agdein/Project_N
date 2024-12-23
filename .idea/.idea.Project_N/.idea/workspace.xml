@@ -30,6 +30,8 @@
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/GPT/SpriteController.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/CameraOrbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/CameraZoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CubeRotation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Sprites/SpriteController.cs" />
       </list>
     </option>
   </component>
@@ -85,7 +87,9 @@
       <workItem from="1732590149220" duration="1813000" />
       <workItem from="1732592016750" duration="599000" />
       <workItem from="1734309197088" duration="13711000" />
-      <workItem from="1734491120227" duration="5298000" />
+      <workItem from="1734491120227" duration="6805000" />
+      <workItem from="1734522239800" duration="1202000" />
+      <workItem from="1734918579301" duration="12096000" />
     </task>
     <servers />
   </component>

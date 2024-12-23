@@ -11,13 +11,12 @@ public class SpriteController : MonoBehaviour
     [SerializeField] private Sprite originalSpriteReverce;
     [SerializeField] private Sprite alternateSprite; // Альтернативный спрайт
     [SerializeField] private Sprite alternateSpriteReverce;
-    [SerializeField] float compressionFactor = 0.5f;
+    [SerializeField] float compressionFactor = 1f;
 
     private SpriteRenderer spriteRenderer;
     private Vector3 originalScale;
     private Action<object> _log;
     private bool ReverceSprite;
-
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -32,12 +31,11 @@ public class SpriteController : MonoBehaviour
     void Update()
     {
         Vector3 directionToCamera = camera.transform.position - transform.position;
-                float angle = Vector3.Angle(Vector3.forward, directionToCamera);
-                _log = Debug.Log;
-
+        float angle = Vector3.Angle(Vector3.forward, directionToCamera);
+        _log = Debug.Log;
         
 
-        if (transform.rotation.y < 0 && transform.rotation.y > -180)
+        if (transform.localRotation.y < 0 && transform.localRotation.y > -180)
         {
             ReverceSprite = true;
         }
@@ -83,23 +81,28 @@ public class SpriteController : MonoBehaviour
             RotateTowardsCamera();
          
         }
-        
+
+      
         
         
     }
 
-    void RotateTowardsCamera()
+    private void RotateTowardsCamera()
     {
-        transform.LookAt(camera.transform.position);
-        _log(ReverceSprite);
+        var camPosition = camera.transform.position;
+        camPosition.y = transform.position.y;
+        transform.LookAt(camPosition);
+        //_log(ReverceSprite);
+        //_log(transform.localRotation.eulerAngles.y);
+        
     }
 
-    void CompressSprite()// Сжимаем спрайт по оси Y и поворачиваем его к камере
+    private void CompressSprite()// Сжимаем спрайт по оси Y и поворачиваем его к камере
     {
         transform.localScale = new Vector3(originalScale.x * compressionFactor, originalScale.y, originalScale.z);
     }
 
-    void ReplaceSprite()// Заменяем спрайт на другой и поворачиваем к камере
+    private void ReplaceSprite()// Заменяем спрайт на другой и поворачиваем к камере
     {
         if(ReverceSprite!)
         { if (spriteRenderer.sprite != alternateSprite)
@@ -117,7 +120,7 @@ public class SpriteController : MonoBehaviour
         }
     }
 
-    void ResetSprite()
+    private void ResetSprite()
     {
        if(ReverceSprite!)
        { if (spriteRenderer.sprite != originalSprite)
@@ -131,7 +134,7 @@ public class SpriteController : MonoBehaviour
            {
                spriteRenderer.sprite = originalSpriteReverce;
            }
-           
+          
        }
         transform.localScale = originalScale;
     }
