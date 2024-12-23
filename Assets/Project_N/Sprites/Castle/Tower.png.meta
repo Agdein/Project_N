@@ -126,12 +126,12 @@ TextureImporter:
       name: Tower_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 996
-        height: 1753
+        width: 1000
+        height: 2000
       alignment: 9
-      pivot: {x: 0.50440454, y: 0.077577546}
+      pivot: {x: 0.4949944, y: 0.093389064}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,6 +139,48 @@ TextureImporter:
       bones: []
       spriteID: a2933d83668f36f4c9ced3d6dbb4bd86
       internalID: -451050123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1996
+      alignment: 9
+      pivot: {x: 0.4701012, y: 0.106654696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12abacc819dfd5849a4e5357bb122926
+      internalID: -450359846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower_2
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2
+        width: 1000
+        height: 1998
+      alignment: 9
+      pivot: {x: 0.48724657, y: 0.10509124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ed7c35166e5a444866df45388e0da9
+      internalID: -1593424516
       vertices: []
       indices: 
       edges: []
@@ -155,6 +197,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Tower_0: -451050123
+      Tower_1: -450359846
+      Tower_2: -1593424516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

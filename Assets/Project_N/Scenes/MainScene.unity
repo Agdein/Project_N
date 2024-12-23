@@ -592,15 +592,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434250746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 77.8}
-  m_LocalScale: {x: -61.4, y: 61.124474, z: -60.723698}
+  m_LocalPosition: {x: 0, y: 0, z: 579}
+  m_LocalScale: {x: -323.54117, y: 322.0893, z: -319.97745}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 24458940}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000013709, y: 24.3}
+  m_AnchoredPosition: {x: 0.000020742, y: 24.3}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1434250748
@@ -984,6 +984,30 @@ PrefabInstance:
       propertyPath: _camera
       value: 
       objectReference: {fileID: 114492656}
+    - target: {fileID: 1033386363658718740, guid: 77bb955850421654880db2466580f476, type: 3}
+      propertyPath: directSprite
+      value: 
+      objectReference: {fileID: -451050123, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+    - target: {fileID: 1033386363658718740, guid: 77bb955850421654880db2466580f476, type: 3}
+      propertyPath: alternateSprite
+      value: 
+      objectReference: {fileID: -1593424516, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+    - target: {fileID: 1033386363658718740, guid: 77bb955850421654880db2466580f476, type: 3}
+      propertyPath: turningLeftSprite
+      value: 
+      objectReference: {fileID: -450359846, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+    - target: {fileID: 1033386363658718740, guid: 77bb955850421654880db2466580f476, type: 3}
+      propertyPath: turningRightSprite
+      value: 
+      objectReference: {fileID: -450359846, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+    - target: {fileID: 1033386363658718740, guid: 77bb955850421654880db2466580f476, type: 3}
+      propertyPath: originalSpriteReverce
+      value: 
+      objectReference: {fileID: -450359846, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+    - target: {fileID: 1033386363658718740, guid: 77bb955850421654880db2466580f476, type: 3}
+      propertyPath: turningDirectlySprite
+      value: 
+      objectReference: {fileID: -1593424516, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
     - target: {fileID: 1045983066725919966, guid: 77bb955850421654880db2466580f476, type: 3}
       propertyPath: m_Name
       value: CatlePrefab
@@ -1032,6 +1056,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9087618918951037130, guid: 77bb955850421654880db2466580f476, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -451050123, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
