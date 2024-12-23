@@ -7,15 +7,14 @@ using UnityEngine;
 public class SpriteController : MonoBehaviour
 {
      [SerializeField] private Camera _camera; // Ссылка на камеру, назначается в инспекторе
-    [SerializeField] private Sprite originalSprite; // Оригинальный спрайт
-    [SerializeField] private Sprite originalSpriteReverce;
-    [SerializeField] private Sprite alternateSprite; // Альтернативный спрайт
-    [SerializeField] private Sprite alternateSpriteReverce;
+    [SerializeField] private Sprite directSprite; // Оригинальный спрайт
+    [SerializeField] private Sprite turningRightSprite;
+    [SerializeField] private Sprite turningLeftSprite; // Альтернативный спрайт
+    [SerializeField] private Sprite turningDirectlySprite;
     [SerializeField] float compressionFactor = 1f;
 
     private SpriteRenderer spriteRenderer;
     private Vector3 originalScale;
-    private bool ReverceSprite;
     private bool ReverceAlterSprite;
     void Start()
     {
@@ -23,9 +22,9 @@ public class SpriteController : MonoBehaviour
         
         originalScale = transform.localScale;
 
-        if (originalSprite != null)
+        if (directSprite != null)
         {
-            spriteRenderer.sprite = originalSprite; // Устанавливаем оригинальный спрайт
+            spriteRenderer.sprite = directSprite; // Устанавливаем оригинальный спрайт
         }
     }
 
@@ -38,17 +37,24 @@ public class SpriteController : MonoBehaviour
     
             if ((yRotation >= 0 && yRotation <= 10) || (yRotation >= 70 && yRotation <= 90)|| (yRotation >= 170 && yRotation <= 190) || (yRotation >= 260 && yRotation <= 280) || (yRotation >= 350 && yRotation <= 360))
             {
-                ReplaceSprite();
+                SetDirectSprite();
+                ResetSprite();
+            }
+            else if ((yRotation >= 40 && yRotation <= 50) || (yRotation >= 130 && yRotation <= 140) || (yRotation >= 220 && yRotation <= 230) || (yRotation >= 310 && yRotation <= 320))
+            {
+               SetTurningDirectSprite();
+               ResetSprite();
             }
             else if ((yRotation >= 45 && yRotation <= 90) || (yRotation >= 135 && yRotation <= 180) || (yRotation >= 225 && yRotation <= 270) || (yRotation >= 315 && yRotation <= 360))
             {
-                ReverceSprite = true;
+                
+                SetTurningRightSprite();
                 ResetSprite();
             }
             else
             {
-                ReverceSprite = false;
-                ResetSprite();
+                SetTurningRightSprite();
+                ReverceSprite();
             }
     }
 
@@ -64,40 +70,47 @@ public class SpriteController : MonoBehaviour
         transform.localScale = new Vector3(originalScale.x * compressionFactor, originalScale.y, originalScale.z);
     }
 
-    private void ReplaceSprite()// Заменяем спрайт на другой и поворачиваем к камере
+    private void SetDirectSprite()
     {
-        if(ReverceSprite!)
-        { if (spriteRenderer.sprite != alternateSprite)
-            {
-                spriteRenderer.sprite = alternateSprite;
-            }
-           
+        if (spriteRenderer.sprite != directSprite)
+        {
+                spriteRenderer.sprite = directSprite;
         }
-        else
-        {if (spriteRenderer.sprite != alternateSpriteReverce)
-            {
-                spriteRenderer.sprite = alternateSpriteReverce;
-            }
-           
+    }
+
+    private void SetTurningRightSprite()
+    {
+       
+       if (spriteRenderer.sprite != turningRightSprite)
+        {
+            spriteRenderer.sprite = turningRightSprite;
         }
+
+    }
+
+    private void SetTurningDirectSprite()
+    {
+        if (spriteRenderer.sprite != turningDirectlySprite)
+        {
+            spriteRenderer.sprite = turningDirectlySprite;
+        }
+
     }
 
     private void ResetSprite()
     {
-       if(ReverceSprite!)
-       { if (spriteRenderer.sprite != originalSprite)
+         transform.localScale = originalScale;
+    }
+
+    private void ReverceSprite()
+    {
+        var CurrentPosition = transform.localScale;
+        if (CurrentPosition.x > 0)
         {
-            spriteRenderer.sprite = originalSprite;
+             CurrentPosition.x = CurrentPosition.x * (-1);
+                    transform.localScale = CurrentPosition;
         }
-           
-       }
-       else
-       {if (spriteRenderer.sprite != originalSpriteReverce)
-           {
-               spriteRenderer.sprite = originalSpriteReverce;
-           }
-          
-       }
-        transform.localScale = originalScale;
+
+       
     }
 }
