@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1045983066725919966
+--- !u!1 &687356802811109630
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,32 +8,52 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5256146051919505295}
+  - component: {fileID: 1960702275507809460}
+  - component: {fileID: 1685523699332708893}
   m_Layer: 0
-  m_Name: CatlePrefab 1
+  m_Name: CastleCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5256146051919505295
+--- !u!4 &1960702275507809460
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045983066725919966}
+  m_GameObject: {fileID: 687356802811109630}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.569752, y: 4.7, z: 5.687443}
+  m_LocalPosition: {x: -12.476541, y: 9.8197365, z: 22.612556}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 144370260641873836}
-  - {fileID: 7587902990358592066}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 4704059870161071311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5058011747484622246
+--- !u!65 &1685523699332708893
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687356802811109630}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 7.3, y: 31.22, z: 7.9}
+  m_Center: {x: 0, y: -2.67, z: -0.53}
+--- !u!1 &4765312318407356660
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,10 +61,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 144370260641873836}
-  - component: {fileID: 9087618918951037130}
-  - component: {fileID: 3100752494539784741}
-  - component: {fileID: 1033386363658718740}
+  - component: {fileID: 5643723541984996665}
+  - component: {fileID: 3366925182323346606}
+  - component: {fileID: 1116498499890889227}
+  - component: {fileID: 4422222636969822519}
   m_Layer: 0
   m_Name: CastleSprite
   m_TagString: Untagged
@@ -52,28 +72,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &144370260641873836
+--- !u!4 &5643723541984996665
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5058011747484622246}
+  m_GameObject: {fileID: 4765312318407356660}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00008287541, y: -0.9973321, z: -0.07298951, w: 0.0011298754}
   m_LocalPosition: {x: -12.482329, y: -7.5234833, z: 20.060375}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5256146051919505295}
+  m_Father: {fileID: 4704059870161071311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &9087618918951037130
+--- !u!212 &3366925182323346606
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5058011747484622246}
+  m_GameObject: {fileID: 4765312318407356660}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -108,7 +128,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f2c94011533e9b34dbd931b17e3a5b42, type: 3}
+  m_Sprite: {fileID: -451050123, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,13 +139,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1183024399 &3100752494539784741
+--- !u!1183024399 &1116498499890889227
 LookAtConstraint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5058011747484622246}
+  m_GameObject: {fileID: 4765312318407356660}
   m_Enabled: 0
   serializedVersion: 2
   m_Weight: 1
@@ -139,25 +159,25 @@ LookAtConstraint:
   m_Sources:
   - sourceTransform: {fileID: 0}
     weight: 1
---- !u!114 &1033386363658718740
+--- !u!114 &4422222636969822519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5058011747484622246}
+  m_GameObject: {fileID: 4765312318407356660}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4760a0bdd7a31f04a971da216237149b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 0}
-  originalSprite: {fileID: -451050123, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
-  originalSpriteReverce: {fileID: 21300000, guid: 483fca74554a3f543a4c1e5a0f2a1e47, type: 3}
-  alternateSprite: {fileID: 21300000, guid: f2c94011533e9b34dbd931b17e3a5b42, type: 3}
-  alternateSpriteReverce: {fileID: 21300000, guid: f2c94011533e9b34dbd931b17e3a5b42, type: 3}
+  directSprite: {fileID: -451050123, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+  turningRightSprite: {fileID: -450359846, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+  turningLeftSprite: {fileID: -450359846, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
+  turningDirectlySprite: {fileID: -1593424516, guid: 48d320ab5b8ef854f8bbe234999026be, type: 3}
   compressionFactor: -1
---- !u!1 &6507774569908355448
+--- !u!1 &5996899049525318103
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,48 +185,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7587902990358592066}
-  - component: {fileID: 7127321187367024511}
+  - component: {fileID: 4704059870161071311}
   m_Layer: 0
-  m_Name: CastleCollider
+  m_Name: CatlePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7587902990358592066
+--- !u!4 &4704059870161071311
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6507774569908355448}
+  m_GameObject: {fileID: 5996899049525318103}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.476541, y: 9.8197365, z: 22.612556}
+  m_LocalPosition: {x: 12.569752, y: 4.7, z: 5.687443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5256146051919505295}
+  m_Children:
+  - {fileID: 5643723541984996665}
+  - {fileID: 1960702275507809460}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &7127321187367024511
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6507774569908355448}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 7.3, y: 31.22, z: 7.9}
-  m_Center: {x: 0, y: -2.67, z: -0.53}
