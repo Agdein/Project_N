@@ -19,13 +19,20 @@ public class SpriteController : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        
         originalScale = transform.localScale;
 
         if (directSprite != null)
         {
             spriteRenderer.sprite = directSprite; // Устанавливаем оригинальный спрайт
         }
+
+        if (_camera == null)
+        {
+            Camera cam = Camera.main;
+            _camera = cam;
+        }
+
+
     }
 
     void Update()
