@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using Unity.VisualScripting;
 using UnityEngine;
-using Color = System.Drawing.Color;
 
 public class SpriteController : MonoBehaviour
 {
