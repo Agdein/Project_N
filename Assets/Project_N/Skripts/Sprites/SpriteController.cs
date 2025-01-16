@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
-     [SerializeField] private Camera _camera; // Ссылка на камеру, назначается в инспекторе
+    [SerializeField] private Camera _camera; // Ссылка на камеру, назначается в инспекторе
     [SerializeField] private Sprite directSprite; // Оригинальный спрайт
     [SerializeField] private Sprite turningRightSprite;
     [SerializeField] private Sprite turningLeftSprite; // Альтернативный спрайт
@@ -18,6 +18,12 @@ public class SpriteController : MonoBehaviour
     private bool ReverceAlterSprite;
     void Start()
     {
+        if (_camera == null)
+        {
+             Camera cam = Camera.main;
+                    _camera = cam;
+        }
+
         spriteRenderer = GetComponent<SpriteRenderer>();
         
         originalScale = transform.localScale;
