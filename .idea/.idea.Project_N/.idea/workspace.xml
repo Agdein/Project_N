@@ -89,7 +89,12 @@
       <workItem from="1734491120227" duration="6805000" />
       <workItem from="1734522239800" duration="1202000" />
       <workItem from="1734918579301" duration="21603000" />
-      <workItem from="1735807636198" duration="1792000" />
+      <workItem from="1735807636198" duration="9658000" />
+      <workItem from="1736067308430" duration="9325000" />
+      <workItem from="1736242451588" duration="1258000" />
+      <workItem from="1736409328487" duration="3547000" />
+      <workItem from="1736605890873" duration="22445000" />
+      <workItem from="1737024896153" duration="18000" />
     </task>
     <servers />
   </component>
@@ -102,13 +107,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="341" y="108" width="854" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1736674990113">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="341" y="108" width="854" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1536.816@0.0.1536.816" timestamp="1736674990113" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1734494882278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1734494882278" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1734344651076">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="498" y="177" width="672" height="532" key="search.everywhere.popup" timestamp="1736129795529">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
+    <state x="498" y="177" width="672" height="532" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1736129795529" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1734344651076" />
   </component>
 </project>
