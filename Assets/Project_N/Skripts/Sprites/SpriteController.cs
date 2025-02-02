@@ -12,6 +12,12 @@ public class SpriteController : MonoBehaviour
    [SerializeField] private Sprite _middleFaceSprite;
    [SerializeField] private Sprite _midSideFaceSprite;
    [SerializeField] private Sprite _sideFaceSprite;
+   
+   [SerializeField] private Sprite _frontFaceSprite_TopPerspective;
+   [SerializeField] private Sprite _midFrontFaceSprite_TopPerspective;
+   [SerializeField] private Sprite _middleFaceSprite_TopPerspective;
+   [SerializeField] private Sprite _midSideFaceSprite_TopPerspective;
+   [SerializeField] private Sprite _sideFaceSprite_TopPerspective;
 
    [SerializeField] private GameObject _angleMeterX;
    [SerializeField] private GameObject _angleMeterY;
@@ -42,11 +48,16 @@ public class SpriteController : MonoBehaviour
    void Update()
    {
        float yRotation = _angleMeterY.transform.rotation.eulerAngles.y;
+       float xRotation = _angleMeterX.transform.rotation.eulerAngles.x;
 
+       _angleMeterX.transform.LookAt(_mainCamera.transform);
+       Debug.Log(xRotation);
+       
       RotateTowardsCamera();
+      
 
       if ((yRotation >= 345 && yRotation <= 360) || (yRotation >= 0 && yRotation <= 15) ||
-         (yRotation >= 165 && yRotation <= 195))
+          (yRotation >= 165 && yRotation <= 195))
       {
          ChangeSprite(_frontFaceSprite, yRotation);
       }
@@ -91,6 +102,7 @@ public class SpriteController : MonoBehaviour
        camPosition.y = transform.position.y;
       _angleMeterY.transform.LookAt(camPosition);
    }
+   
 
    private void ChangeSprite(Sprite sprite, float angle)
    {
@@ -146,6 +158,19 @@ public class SpriteController : MonoBehaviour
        {
            return false;
        }
+   }
+
+   private bool CheckTopPerspective(float angle)
+   {
+       if (angle > 310 && angle < 360)
+       {
+           return true;
+       }
+       else
+       {
+           return false;
+       }
+       
    }
    private void FadingMainSprite()
                {

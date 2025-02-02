@@ -130,8 +130,8 @@ TextureImporter:
         y: 0
         width: 1000
         height: 2000
-      alignment: 9
-      pivot: {x: 0.4949944, y: 0.093389064}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,9 +150,9 @@ TextureImporter:
         x: 1000
         y: 0
         width: 1000
-        height: 1996
-      alignment: 9
-      pivot: {x: 0.4701012, y: 0.106654696}
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: Tower_2
       rect:
         serializedVersion: 2
-        x: 1998
-        y: 2
+        x: 2000
+        y: 0
         width: 1000
-        height: 1998
-      alignment: 9
-      pivot: {x: 0.48724657, y: 0.10509124}
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,6 +181,48 @@ TextureImporter:
       bones: []
       spriteID: 28ed7c35166e5a444866df45388e0da9
       internalID: -1593424516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e84ab57644c2124297153bb8227d582
+      internalID: 1650733498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffa417d200731a47ac852f014836a18
+      internalID: -875623833
       vertices: []
       indices: 
       edges: []
@@ -199,6 +241,8 @@ TextureImporter:
       Tower_0: -451050123
       Tower_1: -450359846
       Tower_2: -1593424516
+      Tower_3: 1650733498
+      Tower_4: -875623833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
