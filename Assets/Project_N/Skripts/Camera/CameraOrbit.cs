@@ -11,16 +11,25 @@ public class CameraOrbit : MonoBehaviour
 
     void Update()
     {
-        transform.position = _player.position;
+        
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            transform.position = _player.position;
+        }
+        
+        if (Input.GetKey(KeyCode.Mouse1))
+        {
+             localRotarion.x += Input.GetAxis("Mouse X") * _mousSpeed;
+                    localRotarion.y -= Input.GetAxis("Mouse Y") * _mousSpeed;
+            
+                    localRotarion.y = Mathf.Clamp(localRotarion.y, 0f, 80f);
+            
+                    Quaternion QT = Quaternion.Euler(localRotarion.y, localRotarion.x, 0f);
+            
+                    transform.rotation = Quaternion.Lerp(transform.rotation, QT, Time.deltaTime * _orbitDamping);
+        }
 
-        localRotarion.x += Input.GetAxis("Mouse X") * _mousSpeed;
-        localRotarion.y -= Input.GetAxis("Mouse Y") * _mousSpeed;
-
-        localRotarion.y = Mathf.Clamp(localRotarion.y, 0f, 80f);
-
-        Quaternion QT = Quaternion.Euler(localRotarion.y, localRotarion.x, 0f);
-
-        transform.rotation = Quaternion.Lerp(transform.rotation, QT, Time.deltaTime * _orbitDamping);
+       
         
         //transform.rotation = QT;
 
