@@ -51,7 +51,7 @@ public class SpriteController : MonoBehaviour
        float xRotation = _angleMeterX.transform.rotation.eulerAngles.x;
 
        _angleMeterX.transform.LookAt(_mainCamera.transform);
-       Debug.Log(xRotation);
+       //Debug.Log(xRotation);
        
       RotateTowardsCamera();
       
@@ -59,40 +59,61 @@ public class SpriteController : MonoBehaviour
       if ((yRotation >= 345 && yRotation <= 360) || (yRotation >= 0 && yRotation <= 15) ||
           (yRotation >= 165 && yRotation <= 195))
       {
-         ChangeSprite(_frontFaceSprite, yRotation);
-      }
-      else if((yRotation >= 75 && yRotation <= 105)|| (yRotation >= 255 && yRotation <= 285))
-      {
-          if (_sideFaceSprite != null)
+          if (CheckTopPerspective(xRotation))
           {
-              ChangeSprite(_sideFaceSprite, yRotation);
+              ChangeSprite(_frontFaceSprite_TopPerspective, yRotation);
           }
           else
           {
               ChangeSprite(_frontFaceSprite, yRotation);
           }
       }
+      else if((yRotation >= 75 && yRotation <= 105)|| (yRotation >= 255 && yRotation <= 285))
+      {
+          if (CheckTopPerspective(xRotation))
+          {
+              ChangeSprite(_sideFaceSprite_TopPerspective, yRotation);
+          }
+          else
+          {
+              ChangeSprite(_sideFaceSprite, yRotation);
+          }
+          
+      }
       else if((yRotation >= 30 && yRotation <= 60) || (yRotation >= 120 && yRotation <= 150) ||
               (yRotation >= 210 && yRotation <= 240) || (yRotation >= 300 && yRotation <= 330))
       {
-         ChangeSprite(_middleFaceSprite, yRotation);
+          if (CheckTopPerspective(xRotation))
+          {
+              ChangeSprite(_middleFaceSprite_TopPerspective, yRotation);
+          }
+          else
+          {
+              ChangeSprite(_middleFaceSprite, yRotation);
+          }
       }
       else if ((yRotation > 15 && yRotation < 30) || (yRotation > 150 && yRotation < 165) ||
                (yRotation > 195 && yRotation < 210) || (yRotation > 330 && yRotation < 345))
       {
-          ChangeSprite(_midFrontFaceSprite, yRotation);
-      }
-      else
-      {
-          if (_midSideFaceSprite != null)
+          if (CheckTopPerspective(xRotation))
           {
-              ChangeSprite(_midSideFaceSprite, yRotation);
+              ChangeSprite(_midFrontFaceSprite_TopPerspective, yRotation);
           }
           else
           {
               ChangeSprite(_midFrontFaceSprite, yRotation);
           }
-
+      }
+      else
+      {
+          if (CheckTopPerspective(xRotation))
+          {
+              ChangeSprite(_midSideFaceSprite_TopPerspective, yRotation);
+          }
+          else
+          {
+               ChangeSprite(_midSideFaceSprite, yRotation);
+          }
       }
    }
 
@@ -162,13 +183,13 @@ public class SpriteController : MonoBehaviour
 
    private bool CheckTopPerspective(float angle)
    {
-       if (angle > 310 && angle < 360)
+       if (angle > 325 && angle < 360)
        {
-           return true;
+           return false;
        }
        else
        {
-           return false;
+           return true;
        }
        
    }

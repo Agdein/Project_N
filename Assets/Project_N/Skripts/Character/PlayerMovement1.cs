@@ -12,10 +12,12 @@ public class PlayerMovement1 : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
+     
     }
     
     void FixedUpdate()
     {
+        _cam = Camera.main.transform;
 
     float horInput = Input.GetAxisRaw("Horizontal") * _moveSpeed;
     float verInput = Input.GetAxisRaw("Vertical") * _moveSpeed;
