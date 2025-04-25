@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InputManager : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class InputManager : MonoBehaviour
         {
             EMoveLeft.Invoke();
         }
-        if (Input.GetKey("Jump"))
+        if (Input.GetKey(KeyCode.Space))
         {
             EJump.Invoke();
         }

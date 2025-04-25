@@ -29,28 +29,28 @@ public class Character2Animation : MonoBehaviour
 
     private void Jump()
     {
-        if (_rigidbody.velocity.y < 1000)
+      /* if (_rigidbody.velocity.y < 1000)
         {
             _rigidbody.velocity = new Vector3( _rigidbody.velocity.x, _jumpHeight,  _rigidbody.velocity.z);
-            
-            
-        }
+
+        }*/
+      Debug.Log("Jump");
     }
     private void MoveForvard()
     {
-        
+        Debug.Log("Forward");
     }
     private void MoveBack()
     {
-        
+        Debug.Log("Back");
     }
     private void MoveLeft()
     {
-        
+        Debug.Log("Left");
     }
     private void MoveRight()
     {
-        
+        Debug.Log("Right");
     }
 
     void Start()

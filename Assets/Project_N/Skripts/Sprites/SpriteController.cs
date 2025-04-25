@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class SpriteController : MonoBehaviour
 {
-    [SerializeField] private Sprite _frontFaceSprite;
+   [SerializeField] private Sprite _frontFaceSprite;
    [SerializeField] private Sprite _midFrontFaceSprite;
    [SerializeField] private Sprite _middleFaceSprite;
    [SerializeField] private Sprite _midSideFaceSprite;

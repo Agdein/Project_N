@@ -36,10 +36,10 @@
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Sprites/SpriteController.cs" />
         <option value="$PROJECT_DIR$/Assets/FastScriptReload/Examples/Scripts/Graph.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraOrbit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/InputManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character/Vers2/Character2Animation.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character/PlayerMovement1.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character/CharacterAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character/Vers2/Character2Animation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/InputManager.cs" />
       </list>
     </option>
   </component>
@@ -118,7 +118,9 @@
       <workItem from="1742940663726" duration="3615000" />
       <workItem from="1743417395712" duration="3387000" />
       <workItem from="1743778246951" duration="1740000" />
-      <workItem from="1743993516892" duration="1265000" />
+      <workItem from="1743993516892" duration="3665000" />
+      <workItem from="1744198340378" duration="4165000" />
+      <workItem from="1745204661412" duration="605000" />
     </task>
     <servers />
   </component>

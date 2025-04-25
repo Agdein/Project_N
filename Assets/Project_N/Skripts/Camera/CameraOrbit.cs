@@ -12,10 +12,10 @@ public class CameraOrbit : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKey(KeyCode.Mouse0))
-        {
+        //if (Input.GetKey(KeyCode.Mouse0))
+       //{
             transform.position = _player.position;
-        }
+        //}
         
         if (Input.GetKey(KeyCode.Mouse1))
         {
