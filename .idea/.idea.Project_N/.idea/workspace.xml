@@ -12,7 +12,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_OldProject/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/383DB090-FD54-4F24-B368-FD389016A28F/ff/c12eaa97/EventDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,10 +54,10 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -121,6 +120,16 @@
       <workItem from="1743993516892" duration="3665000" />
       <workItem from="1744198340378" duration="4165000" />
       <workItem from="1745204661412" duration="605000" />
+      <workItem from="1746215260954" duration="628000" />
+      <workItem from="1746217062626" duration="600000" />
+      <workItem from="1746234036186" duration="340000" />
+      <workItem from="1746234404361" duration="1237000" />
+      <workItem from="1746237176498" duration="1116000" />
+      <workItem from="1746277711740" duration="79000" />
+      <workItem from="1746277806241" duration="52000" />
+      <workItem from="1746277896939" duration="2000" />
+      <workItem from="1746278161524" duration="1000" />
+      <workItem from="1746278424272" duration="276000" />
     </task>
     <servers />
   </component>
@@ -133,10 +142,6 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="108" width="854" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1736674990113">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="341" y="108" width="854" height="600" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1536.816@0.0.1536.816" timestamp="1736674990113" />
     <state width="1853" height="352" key="GridCell.Tab.0.bottom" timestamp="1743498282544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,13 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1853" height="352" key="GridCell.Tab.3.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282546" />
-    <state x="220" y="-1080" key="SettingsEditor" timestamp="1741608077743">
-      <screen x="0" y="-1080" width="1920" height="1040" />
-    </state>
-    <state x="220" y="-1080" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1741608077743" />
-    <state x="498" y="177" width="672" height="532" key="search.everywhere.popup" timestamp="1736129795529">
+    <state x="176" y="0" key="SettingsEditor" timestamp="1746278450768">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="498" y="177" width="672" height="532" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1736129795529" />
+    <state x="176" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1746278450768" />
+    <state x="220" y="-1080" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1741608077743" />
   </component>
 </project>
