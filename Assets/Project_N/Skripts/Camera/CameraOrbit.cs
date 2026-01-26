@@ -1,21 +1,33 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CameraOrbit : MonoBehaviour
 {
-    [SerializeField] private Transform _player;
+    [SerializeField] public Transform _focalPoint;
+    
     [SerializeField] private float _mousSpeed = 3;
     [SerializeField] private float _orbitDamping = 10;
     private Vector3 localRotarion;
+    
+    public bool LockMove = true;
+
+    private void Start()
+    {
+       
+    }
+
 
     void Update()
     {
+
+        if (LockMove)
+        {
+            transform.position = _focalPoint.position;
+        }
         
-        //if (Input.GetKey(KeyCode.Mouse0))
-       //{
-            transform.position = _player.position;
-        //}
         
         if (Input.GetKey(KeyCode.Mouse1))
         {
@@ -29,9 +41,10 @@ public class CameraOrbit : MonoBehaviour
                     transform.rotation = Quaternion.Lerp(transform.rotation, QT, Time.deltaTime * _orbitDamping);
         }
 
-       
-        
-        //transform.rotation = QT;
+    }
 
+    public void ChangeFocalPoint(Transform newTransform)
+    {
+        _focalPoint = newTransform;
     }
 }

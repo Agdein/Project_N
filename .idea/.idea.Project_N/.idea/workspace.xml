@@ -12,6 +12,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_OldProject/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/NavMeshMovement/CharacterMovementNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/SceneSystems/TurnManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.27/Rider/Editor/RiderScriptEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/SceneSystems/TargetingManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -30,15 +36,33 @@
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts1/CameraOrbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/CameraZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CubeRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/FastScriptReload/Examples/Scripts/FunctionLibrary.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Sprites/SpriteController.cs" />
         <option value="$PROJECT_DIR$/Assets/FastScriptReload/Examples/Scripts/Graph.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraOrbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character/PlayerMovement1.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character/CharacterAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Character/Vers2/Character2Animation.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/InputManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/NavMeshMovement/CharacterMovementNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/_Old/Character/Vers2/Character2Animation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/NavMeshMovement/MovementComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraZoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/TargetingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/MovementComponentDS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/SceneSystems/MovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/MovementComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/MovementComponentOld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/SceneSystems/TargetingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraOrbit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/ClickOnObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/MovementComponentOld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/RotationSprite.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/SceneSystems/TurnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/SceneSystems/UIManager.cs" />
       </list>
     </option>
   </component>
@@ -54,10 +78,10 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -130,6 +154,20 @@
       <workItem from="1746277896939" duration="2000" />
       <workItem from="1746278161524" duration="1000" />
       <workItem from="1746278424272" duration="276000" />
+      <workItem from="1766881522523" duration="71000" />
+      <workItem from="1766881626526" duration="174000" />
+      <workItem from="1766882040538" duration="81000" />
+      <workItem from="1766885238938" duration="2210000" />
+      <workItem from="1766960961528" duration="10373000" />
+      <workItem from="1767458245597" duration="3978000" />
+      <workItem from="1767485698822" duration="10625000" />
+      <workItem from="1767564665879" duration="15727000" />
+      <workItem from="1767644263035" duration="4709000" />
+      <workItem from="1767839159939" duration="8617000" />
+      <workItem from="1767930956068" duration="988000" />
+      <workItem from="1767999970799" duration="19511000" />
+      <workItem from="1768179208644" duration="17431000" />
+      <workItem from="1768523401855" duration="5117000" />
     </task>
     <servers />
   </component>
@@ -142,74 +180,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1853" height="352" key="GridCell.Tab.0.bottom" timestamp="1743498282544">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282544" />
-    <state width="1853" height="352" key="GridCell.Tab.0.center" timestamp="1743498282544">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282544" />
-    <state width="1853" height="352" key="GridCell.Tab.0.left" timestamp="1743498282544">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282544" />
-    <state width="1853" height="352" key="GridCell.Tab.0.right" timestamp="1743498282544">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282544" />
-    <state width="1853" height="352" key="GridCell.Tab.1.bottom" timestamp="1743498282545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282545" />
-    <state width="1853" height="352" key="GridCell.Tab.1.center" timestamp="1743498282544">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282544" />
-    <state width="1853" height="352" key="GridCell.Tab.1.left" timestamp="1743498282544">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282544" />
-    <state width="1853" height="352" key="GridCell.Tab.1.right" timestamp="1743498282545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282545" />
-    <state width="1853" height="352" key="GridCell.Tab.2.bottom" timestamp="1743498282546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282546" />
-    <state width="1853" height="352" key="GridCell.Tab.2.center" timestamp="1743498282545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.2.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282545" />
-    <state width="1853" height="352" key="GridCell.Tab.2.left" timestamp="1743498282545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.2.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282545" />
-    <state width="1853" height="352" key="GridCell.Tab.2.right" timestamp="1743498282545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.2.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282545" />
-    <state width="1853" height="352" key="GridCell.Tab.3.bottom" timestamp="1743498282546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.3.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282546" />
-    <state width="1853" height="352" key="GridCell.Tab.3.center" timestamp="1743498282546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.3.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282546" />
-    <state width="1853" height="352" key="GridCell.Tab.3.left" timestamp="1743498282546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.3.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282546" />
-    <state width="1853" height="352" key="GridCell.Tab.3.right" timestamp="1743498282546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1853" height="352" key="GridCell.Tab.3.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1743498282546" />
-    <state x="176" y="0" key="SettingsEditor" timestamp="1746278450768">
+    <state x="277" y="53" key="SettingsEditor" timestamp="1766885855840">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="176" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1746278450768" />
-    <state x="220" y="-1080" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1741608077743" />
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1766885855840" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1766281201212">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1766281201212" />
   </component>
 </project>
