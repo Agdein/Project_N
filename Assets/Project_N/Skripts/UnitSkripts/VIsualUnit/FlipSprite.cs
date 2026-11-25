@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class FlipSprite : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     [SerializeField] private Transform _localRotation;
     [SerializeField] private SpriteRenderer _sprite;
     private float _normalScale;

@@ -1,0 +1,328 @@
+
+fawnspritecombat.png
+size: 1406,402
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+antler_r
+  rotate: false
+  xy: 1324, 4
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+bell
+  rotate: false
+  xy: 1375, 89
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+braid
+  rotate: true
+  xy: 2, 117
+  size: 283, 458
+  orig: 283, 458
+  offset: 0, 0
+  index: -1
+braid_top
+  rotate: true
+  xy: 1009, 226
+  size: 91, 135
+  orig: 91, 135
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 619, 26
+  size: 103, 124
+  orig: 103, 125
+  offset: 0, 0
+  index: -1
+fur_back
+  rotate: false
+  xy: 836, 277
+  size: 171, 123
+  orig: 171, 123
+  offset: 0, 0
+  index: -1
+hair_antler_r
+  rotate: false
+  xy: 514, 8
+  size: 51, 31
+  orig: 51, 31
+  offset: 0, 0
+  index: -1
+hair_b
+  rotate: false
+  xy: 1003, 40
+  size: 113, 101
+  orig: 113, 101
+  offset: 0, 0
+  index: -1
+hair_back_l
+  rotate: true
+  xy: 146, 8
+  size: 40, 82
+  orig: 40, 82
+  offset: 0, 0
+  index: -1
+hair_f_1
+  rotate: false
+  xy: 1336, 117
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1
+hair_f_2
+  rotate: false
+  xy: 1003, 11
+  size: 59, 27
+  orig: 59, 27
+  offset: 0, 0
+  index: -1
+hair_f_3
+  rotate: true
+  xy: 567, 7
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+hair_l
+  rotate: true
+  xy: 230, 3
+  size: 45, 73
+  orig: 45, 73
+  offset: 0, 0
+  index: -1
+hair_r
+  rotate: false
+  xy: 1250, 132
+  size: 84, 80
+  orig: 84, 80
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1124, 123
+  size: 98, 124
+  orig: 103, 125
+  offset: 5, 0
+  index: -1
+l_antler
+  rotate: false
+  xy: 83, 2
+  size: 61, 46
+  orig: 61, 46
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 826, 13
+  size: 84, 126
+  orig: 84, 126
+  offset: 0, 0
+  index: -1
+l_bang
+  rotate: true
+  xy: 668, 131
+  size: 51, 160
+  orig: 51, 160
+  offset: 0, 0
+  index: -1
+l_boob
+  rotate: false
+  xy: 1274, 66
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+l_ear
+  rotate: true
+  xy: 467, 2
+  size: 37, 45
+  orig: 37, 45
+  offset: 0, 0
+  index: -1
+l_fur
+  rotate: false
+  xy: 954, 2
+  size: 47, 95
+  orig: 47, 95
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 2, 2
+  size: 46, 79
+  orig: 46, 79
+  offset: 0, 0
+  index: -1
+l_leg
+  rotate: true
+  xy: 467, 41
+  size: 90, 150
+  orig: 90, 150
+  offset: 0, 0
+  index: -1
+l_robe
+  rotate: false
+  xy: 1344, 280
+  size: 60, 120
+  orig: 60, 120
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 1224, 18
+  size: 48, 103
+  orig: 48, 103
+  offset: 0, 0
+  index: -1
+l_thigh
+  rotate: true
+  xy: 836, 180
+  size: 95, 156
+  orig: 95, 156
+  offset: 0, 0
+  index: -1
+l_thigh_bandaid
+  rotate: false
+  xy: 1334, 91
+  size: 39, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+l_thumb
+  rotate: true
+  xy: 1064, 6
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+l_tunic_thigh
+  rotate: true
+  xy: 1186, 305
+  size: 95, 156
+  orig: 95, 156
+  offset: 0, 0
+  index: -1
+necklace
+  rotate: true
+  xy: 1274, 2
+  size: 62, 48
+  orig: 62, 48
+  offset: 0, 0
+  index: -1
+pendant
+  rotate: true
+  xy: 1276, 214
+  size: 89, 59
+  orig: 89, 59
+  offset: 0, 0
+  index: -1
+r_bang
+  rotate: true
+  xy: 462, 133
+  size: 49, 204
+  orig: 49, 204
+  offset: 0, 0
+  index: -1
+r_boob
+  rotate: false
+  xy: 1337, 218
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+r_ear
+  rotate: false
+  xy: 305, 7
+  size: 56, 41
+  orig: 56, 41
+  offset: 0, 0
+  index: -1
+r_fur
+  rotate: false
+  xy: 363, 2
+  size: 102, 113
+  orig: 102, 113
+  offset: 0, 0
+  index: -1
+r_hoof
+  rotate: false
+  xy: 1337, 158
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: true
+  xy: 1009, 319
+  size: 81, 175
+  orig: 81, 175
+  offset: 0, 0
+  index: -1
+r_robe
+  rotate: true
+  xy: 830, 99
+  size: 79, 153
+  orig: 79, 153
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 745, 5
+  size: 79, 124
+  orig: 79, 124
+  offset: 0, 0
+  index: -1
+r_thigh
+  rotate: true
+  xy: 1146, 223
+  size: 80, 128
+  orig: 80, 128
+  offset: 0, 0
+  index: -1
+r_tunic_thigh
+  rotate: true
+  xy: 994, 143
+  size: 81, 128
+  orig: 81, 128
+  offset: 0, 0
+  index: -1
+r_weapon
+  rotate: false
+  xy: 720, 184
+  size: 114, 216
+  orig: 114, 216
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 50
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 462, 184
+  size: 127, 216
+  orig: 127, 216
+  offset: 0, 0
+  index: -1
+tunic_breasts
+  rotate: false
+  xy: 1118, 23
+  size: 104, 98
+  orig: 104, 98
+  offset: 0, 0
+  index: -1
+tunic_tummy
+  rotate: false
+  xy: 591, 184
+  size: 127, 216
+  orig: 127, 216
+  offset: 0, 0
+  index: -1

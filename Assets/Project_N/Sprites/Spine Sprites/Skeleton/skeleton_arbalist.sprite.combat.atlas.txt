@@ -1,0 +1,265 @@
+
+skeleton_arbalist.sprite.combat.png
+size: 1864,316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fadai
+  rotate: true
+  xy: 404, 60
+  size: 20, 80
+  orig: 22, 82
+  offset: 1, 1
+  index: -1
+fadai2
+  rotate: false
+  xy: 1081, 23
+  size: 30, 90
+  orig: 32, 92
+  offset: 1, 1
+  index: -1
+feidao
+  rotate: false
+  xy: 1453, 150
+  size: 45, 164
+  orig: 47, 166
+  offset: 1, 1
+  index: -1
+feidao(2)
+  rotate: false
+  xy: 1500, 150
+  size: 30, 164
+  orig: 32, 167
+  offset: 1, 2
+  index: -1
+feidao(3)
+  rotate: false
+  xy: 1585, 161
+  size: 68, 153
+  orig: 70, 156
+  offset: 1, 2
+  index: -1
+houfa2
+  rotate: false
+  xy: 894, 91
+  size: 65, 223
+  orig: 69, 226
+  offset: 1, 1
+  index: -1
+houfasi
+  rotate: false
+  xy: 1532, 151
+  size: 51, 163
+  orig: 53, 165
+  offset: 1, 1
+  index: -1
+houfasi1
+  rotate: false
+  xy: 961, 105
+  size: 110, 209
+  orig: 112, 211
+  offset: 1, 1
+  index: -1
+jianbangleisi
+  rotate: true
+  xy: 1786, 240
+  size: 74, 76
+  orig: 76, 78
+  offset: 1, 1
+  index: -1
+lian
+  rotate: false
+  xy: 1655, 171
+  size: 129, 143
+  orig: 131, 145
+  offset: 1, 1
+  index: -1
+shadow
+  rotate: false
+  xy: 642, 9
+  size: 437, 79
+  orig: 499, 177
+  offset: 13, 44
+  index: -1
+shenti
+  rotate: true
+  xy: 579, 90
+  size: 224, 313
+  orig: 227, 320
+  offset: 1, 6
+  index: -1
+toufa
+  rotate: true
+  xy: 178, 58
+  size: 256, 224
+  orig: 260, 227
+  offset: 1, 1
+  index: -1
+toushi
+  rotate: true
+  xy: 1782, 108
+  size: 55, 70
+  orig: 57, 72
+  offset: 1, 1
+  index: -1
+weiqun
+  rotate: true
+  xy: 1557, 3
+  size: 146, 79
+  orig: 148, 82
+  offset: 1, 1
+  index: -1
+weiqun2
+  rotate: false
+  xy: 1113, 24
+  size: 144, 89
+  orig: 146, 91
+  offset: 1, 1
+  index: -1
+weiqunbangdai
+  rotate: false
+  xy: 1786, 165
+  size: 75, 73
+  orig: 78, 75
+  offset: 1, 1
+  index: -1
+weiqunduandai
+  rotate: false
+  xy: 2, 9
+  size: 71, 305
+  orig: 73, 307
+  offset: 1, 1
+  index: -1
+weiqunduandai2
+  rotate: false
+  xy: 75, 47
+  size: 101, 267
+  orig: 103, 269
+  offset: 1, 1
+  index: -1
+xiong1
+  rotate: false
+  xy: 2, 6
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+xiong2
+  rotate: false
+  xy: 2, 6
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+youfa1
+  rotate: false
+  xy: 1073, 115
+  size: 114, 199
+  orig: 116, 201
+  offset: 1, 1
+  index: -1
+youfa2
+  rotate: false
+  xy: 404, 82
+  size: 83, 232
+  orig: 86, 234
+  offset: 1, 1
+  index: -1
+youfasi
+  rotate: true
+  xy: 1259, 6
+  size: 114, 148
+  orig: 116, 150
+  offset: 1, 1
+  index: -1
+youfasi2
+  rotate: false
+  xy: 1361, 128
+  size: 41, 186
+  orig: 43, 188
+  offset: 1, 1
+  index: -1
+youjiao
+  rotate: false
+  xy: 530, 5
+  size: 110, 80
+  orig: 112, 82
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 1638, 9
+  size: 69, 150
+  orig: 71, 152
+  offset: 1, 1
+  index: -1
+youshou2
+  rotate: false
+  xy: 75, 3
+  size: 133, 42
+  orig: 135, 44
+  offset: 1, 1
+  index: -1
+youshou3
+  rotate: false
+  xy: 1709, 60
+  size: 66, 55
+  orig: 68, 57
+  offset: 1, 1
+  index: -1
+youtui1
+  rotate: false
+  xy: 489, 87
+  size: 88, 227
+  orig: 90, 230
+  offset: 1, 1
+  index: -1
+youtui2
+  rotate: true
+  xy: 210, 2
+  size: 54, 195
+  orig: 56, 198
+  offset: 1, 2
+  index: -1
+zuojiao
+  rotate: true
+  xy: 1709, 4
+  size: 54, 119
+  orig: 57, 121
+  offset: 1, 1
+  index: -1
+zuoshou1
+  rotate: false
+  xy: 1404, 145
+  size: 47, 169
+  orig: 49, 171
+  offset: 1, 1
+  index: -1
+zuoshou2
+  rotate: true
+  xy: 407, 3
+  size: 55, 121
+  orig: 57, 123
+  offset: 1, 1
+  index: -1
+zuoshou3
+  rotate: true
+  xy: 1709, 117
+  size: 52, 71
+  orig: 54, 73
+  offset: 1, 1
+  index: -1
+zuotui1
+  rotate: false
+  xy: 1189, 122
+  size: 170, 192
+  orig: 172, 194
+  offset: 1, 1
+  index: -1
+zuotui2
+  rotate: true
+  xy: 1409, 6
+  size: 137, 146
+  orig: 141, 148
+  offset: 3, 1
+  index: -1

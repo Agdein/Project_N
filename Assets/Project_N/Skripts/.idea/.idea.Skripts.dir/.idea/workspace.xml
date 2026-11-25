@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52cc7634-5ba9-48b5-9022-bec0903b9ad1" name="Default Changelist" comment="" />
+    <list default="true" id="52cc7634-5ba9-48b5-9022-bec0903b9ad1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/.idea.Project_N/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/.idea.Project_N/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/.idea.Project_N/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/.idea.Project_N/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Skripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Skripts.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +15,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Unit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnitSkripts/MovementComponent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SceneSystems/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Ability.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="34fGBDqtDhJyH0ABxJKTTNEHAi9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,13 +41,17 @@
       <workItem from="1761597081445" duration="30000" />
       <workItem from="1761597128494" duration="82000" />
       <workItem from="1766885129532" duration="101000" />
+      <workItem from="1774742817562" duration="51000" />
+      <workItem from="1774743801897" duration="96000" />
+      <workItem from="1774743943130" duration="87000" />
+      <workItem from="1774958718200" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

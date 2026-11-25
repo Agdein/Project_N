@@ -1,0 +1,55 @@
+
+fawnspritedrill.png
+size: 1662,917
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur_drill
+  rotate: false
+  xy: 2, 57
+  size: 704, 242
+  orig: 704, 242
+  offset: 0, 0
+  index: -1
+blur_full
+  rotate: false
+  xy: 2, 301
+  size: 962, 614
+  orig: 962, 614
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 966, 2
+  size: 913, 603
+  orig: 913, 603
+  offset: 0, 0
+  index: -1
+particles
+  rotate: false
+  xy: 708, 110
+  size: 235, 189
+  orig: 235, 189
+  offset: 0, 0
+  index: -1
+spark_1
+  rotate: true
+  xy: 1571, 248
+  size: 167, 89
+  orig: 167, 89
+  offset: 0, 0
+  index: -1
+spark_2
+  rotate: true
+  xy: 1571, 417
+  size: 215, 80
+  orig: 215, 80
+  offset: 0, 0
+  index: -1
+spark_circle
+  rotate: false
+  xy: 1571, 634
+  size: 70, 281
+  orig: 70, 281
+  offset: 0, 0
+  index: -1
