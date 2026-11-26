@@ -27,7 +27,7 @@ public class FlipSkeleton : MonoBehaviour
 
         if (_yRotation > 0 && _yRotation < 180) FlipObject(_spriteFlipper, true);
         if (_yRotation < 360 && _yRotation > 180) FlipObject(_spriteFlipper, false);
-        if (_yRotation > 0 && _yRotation < 20 || _yRotation > 340 && _yRotation < 360 ||
+        /*if (_yRotation > 0 && _yRotation < 20 || _yRotation > 340 && _yRotation < 360 ||
             _yRotation > 160 && _yRotation < 200)
         {
             if (!_isCompressed) 
@@ -44,7 +44,7 @@ public class FlipSkeleton : MonoBehaviour
                 _isCompressed = false;
             }
         }
-          
+          */
         
         
 
@@ -61,14 +61,14 @@ public class FlipSkeleton : MonoBehaviour
     {
         Vector3 scale = transform.localScale;
         if (flip == true)
-        { Debug.Log(flip);
+        { 
             if (scale.x > 0)
             {
                  scale.x = scale.x * -1;
             }
         }
         else
-        { Debug.Log(flip);
+        { 
             if (scale.x < 0)
             {
                 scale.x = scale.x * -1;

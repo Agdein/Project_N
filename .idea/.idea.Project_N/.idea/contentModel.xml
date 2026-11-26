@@ -76,17 +76,30 @@
               <e p="MovementComponentOld.cs" t="Include" />
               <e p="Unit.cs" t="Include" />
               <e p="VIsualUnit" t="Include">
-                <e p="FlipSkeleton.cs" t="Include" />
                 <e p="FlipSprite.cs" t="Include" />
                 <e p="RotationSprite.cs" t="Include" />
+                <e p="Spine" t="Include">
+                  <e p="FlipSkeleton.cs" t="Include" />
+                  <e p="UnitVisualController.cs" t="Include" />
+                </e>
               </e>
             </e>
           </e>
           <e p="Sprites" t="Include">
             <e p="Spine Sprites" t="Include">
               <e p="Favn" t="Include">
-                <e p="fawnspritecombat.atlas.txt" t="Include" />
-                <e p="fawnspritecombat.json" t="Include" />
+                <e p="Attack" t="Include">
+                  <e p="fawnspriteattack_drill.atlas.txt" t="Include" />
+                  <e p="fawnspriteattack_drill.json" t="Include" />
+                </e>
+                <e p="AttackFX" t="Include">
+                  <e p="fawnspritedrill.atlas.txt" t="Include" />
+                  <e p="fawnspritedrill.json" t="Include" />
+                </e>
+                <e p="Combat" t="Include">
+                  <e p="fawnspritecombat.atlas.txt" t="Include" />
+                  <e p="fawnspritecombat.json" t="Include" />
+                </e>
               </e>
               <e p="Skeleton" t="Include">
                 <e p="skeleton_arbalist.sprite.combat.atlas.txt" t="Include" />

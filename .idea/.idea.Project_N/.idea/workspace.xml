@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="875fa837-1624-4f3b-83a0-c184d4885014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project_N/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project_N/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project_N/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project_N/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project_N/Skripts/.idea/.idea.Skripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project_N/Skripts/.idea/.idea.Skripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSprite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project_N/_Scenes/Movement.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project_N/_Scenes/Movement.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSkeleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSkeleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project_N/Sprites/Spine Sprites/Favn/AttackFX/fawnspritedrill.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project_N/Sprites/Spine Sprites/Favn/AttackFX/fawnspritedrill.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_OldProject/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/Camera/CameraMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSprite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/Spine/UnitVisualController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,6 +92,7 @@
         <option value="$PROJECT_DIR$/Assets/Project_N/Sprites/Spine Sprites/New Folder/fawnspritecombat.json" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSprite.cs" />
         <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/FlipSkeleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project_N/Skripts/UnitSkripts/VIsualUnit/Spine/UnitVisualController.cs" />
       </list>
     </option>
   </component>
@@ -184,6 +204,7 @@
       <workItem from="1795038000774" duration="752000" />
       <workItem from="1795489506818" duration="2303000" />
       <workItem from="1795503175193" duration="9350000" />
+      <workItem from="1795643411852" duration="5266000" />
     </task>
     <servers />
   </component>
@@ -192,6 +213,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
